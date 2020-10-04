@@ -1,0 +1,192 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ 
+ .body {
+     background-image: url('../image/fishing-5552310_1920.jpg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+ }
+
+ .header {
+     margin: 0px;
+ }
+
+ .header h1 {
+     margin-top: 10px;
+     margin-left: 70px;
+     float: left;
+     font-family: 'Kaushan Script', cursive;
+     color: rgb(236, 80, 18);
+     font-size: 40px;
+ }
+
+ .button {
+     float: right;
+     margin: 1.5rem;
+     width: 220px;
+ }
+
+ .button button {
+     padding: 7px;
+     width: 100px;
+     margin-right: 6px;
+     background: linear-gradient(rgb(22, 139, 22), rgb(18, 146, 18));
+     border-radius: 5px;
+     color: white;
+
+     cursor: pointer;
+ }
+
+ .clearFix {
+     clear: both;
+ }
+
+ .button button:hover {
+     box-shadow: 2px 2px 10px black;
+     background: blueviolet;
+     transition: all .3s ease-in-out;
+ }
+
+ .line {
+     border: 0.5px rgb(19, 19, 19) solid;
+     width: 100%;
+ }
+
+ .main {
+     float: left;
+     margin-left: 470px;
+     margin-top: 250px;
+ }
+
+ .main button {
+     padding: 10px 20px;
+     width: 120px;
+     margin-right: 6px;
+     background: linear-gradient(90deg, rgb(37, 128, 233), rgb(165, 30, 199));
+     border-radius: 5px;
+     color: white;
+     cursor: pointer;
+ }
+ .main button a{
+    color: white;
+ }
+
+ .main button:hover {
+     box-shadow: 2px 2px 10px black;
+     background: linear-gradient(90deg, rgb(184, 6, 115), rgb(184, 6, 115));
+     transition: all .2s ease-in-out;
+ }
+
+ /* sign in , sign up model */
+
+ .signInModel {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     max-width: 27%;
+     margin: auto;
+     background: #ffffff;
+     border-radius: 20px;
+     padding: 20px;
+     box-shadow: 2px 2px 10px grey;
+     font-family: 'Merriweather Sans', sans-serif;
+ }
+
+ .signInModel h1 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+ }
+
+ #sub {
+     width: 100%;
+     background-image: linear-gradient(to right, rgb(241, 86, 241), rgb(176, 69, 238));
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+
+ input[type=text],
+ [type=password] {
+
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border-radius: 15px;
+     border: none;
+     border-radius: 10px;
+     box-sizing: border-box;
+     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .forget {
+     float: right;
+ }
+
+ .text {
+     text-align: left;
+     font-size: small;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ #font {
+     color: rgba(128, 128, 128, 0.685);
+     text-align: center;
+ }
+
+ .logo {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-shrink: 4px;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
+
+ img {
+     border-radius: 22px;
+     box-shadow: 2px 2px 5px;
+ }
+
+ #signuptag {
+     text-align: center;
+ }
+
+ #sub:hover {
+     background-image: linear-gradient(to right, rgb(112, 241, 86), rgb(69, 238, 92));
+     color: black;
+ }
+
+a:hover{
+    text-decoration: none;
+}
+ .signupModel {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     max-width: 27%;
+     margin: auto;
+     background: #ffffff;
+     border-radius: 20px;
+     padding: 20px;
+     box-shadow: 2px 2px 10px grey;
+     font-family: 'Merriweather Sans', sans-serif;
+ }
+
+ .signupModel h1 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+ }
+
+ #signintag {
+     text-align: center;
+ }
